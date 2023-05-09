@@ -5,3 +5,28 @@
     width: 1200px;
     margin: 0 auto;
 }
+
+.nav-header {
+display: flex;
+justify-content: space-between;
+}
+
+.menu {
+display: flex;
+align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #292F36;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.menu > li:not(:last-child){
+    margin-right: 40px;
+}
+
+.link:hover {
+    color: #CDA274;
+}
