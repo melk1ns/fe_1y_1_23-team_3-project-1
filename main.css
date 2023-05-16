@@ -49,21 +49,14 @@ html {
     padding-bottom: 22px;
 }
 .interno {
-    height: 374px;
-    width: 393.359375px;
+    width: 393px;
 }
-.pages {
-    height: 374px;
-    width: 210.71875px;
-}
-.explore {
-    height: 374px;
-    width: 210.71875px;
+.pages, .explore {
+    width: 210px;
 }
 .contact {
-    height: 374px;
-    width: 337.15625px;
-}
+    width: 337px;
+} 
 .second_part {
     display: flex;
     justify-content: center;
