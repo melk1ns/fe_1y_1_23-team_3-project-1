@@ -5,6 +5,70 @@
     width: 1200px;
     margin: 0 auto;
 }
+html {
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+.foot {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.first_part {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    line-height: 33px;
+    color: #4D5053;
+}
+.info {
+    padding-bottom: 30px;
+    color: #4D5053;;
+    line-height: 33px;
+}
+.icons {
+    height: 53px;
+    width: 333.359375px;  
+    margin-top: 30px;  
+}
+.logo {
+    height: 50px;
+    width: 177px;
+    margin-bottom: 26px;
+}
+.title {
+    font-family: DM Serif Display;
+    font-size: 25px;
+    line-height: 38px;
+    color: #292F36;
+    padding-bottom: 22px;
+}
+.interno {
+    width: 393px;
+}
+.pages, .explore {
+    width: 210px;
+}
+.contact {
+    width: 337px;
+} 
+.second_part {
+    display: flex;
+    justify-content: center;
+    margin-top: 116px;
+}
+.accent {
+    color: #CDA274;
+}
+.last {
+    color: #4D5053;;
+    line-height: 33px;
+}
 
 .nav-header {
 display: flex;
