@@ -94,3 +94,14 @@ align-items: center;
 .link:hover {
     color: #CDA274;
 }
+/* Секція кліенти */
+
+.brend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clients {
+    margin-top: 100px;
+}
