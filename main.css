@@ -43,7 +43,7 @@ html {
     margin-bottom: 26px;
 }
 .title {
-    font-family: DM Serif Display;
+    font-family: 'DM Serif Display';
     font-size: 25px;
     line-height: 38px;
     color: #292F36;
@@ -70,37 +70,80 @@ html {
     color: #4D5053;;
     line-height: 33px;
 }
-
-.nav-header {
-display: flex;
-justify-content: space-between;
+.services {
+    display: flex;
+    justify-content: space-evenly;
 }
-
+.service {
+    width: 400px;
+    flex-direction: column;
+    height: 395px;
+    text-align: center;
+    width: 317px; 
+}
+.service_title {
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    line-height: 39px;
+    padding-bottom: 18px;
+    text-align: center;
+    letter-spacing: 0.22px;
+}
+.longer {
+    padding-bottom: 68px;
+}
+.shoter {
+    padding-bottom: 36px;
+}
+.service_text {
+    font-size: 22px;
+    line-height: 33px;
+    color: #4D5053;
+    justify-content: center;
+    display: flex; 
+    width: 317px; 
+    text-align: center;
+    letter-spacing: 0.22px;
+}
+.service_btn {
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4D5053;  
+    text-align: center;
+    letter-spacing: 0.36px;
+    margin-right: -8px;
+}
+.service_arrow {
+    margin-left: 8px;
+}
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+}
 .menu {
     display: flex;
-align-items: center;
+    align-items: center;
 }
-
 .btn {
     font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
     padding-left: 34px;
-padding-right: 20px;
-border-radius: 18px;
-margin-bottom: 50px;
-display: flex;
-align-items: center;
+    padding-right: 20px;
+    border-radius: 18px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .button-dark {
-background: #292F36;
-border: 2px solid #292F36;
-width: 207px;
-height: 71px;
+    background: #292F36;
+    border: 2px solid #292F36;
+    width: 207px;
+    height: 71px;
 }
 
 .link {
