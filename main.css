@@ -152,8 +152,7 @@ background: #F4F0EC;
 margin-left: 350px;
 }
 
-.feedback-header1,
-.feedback-header2 {
+.feedback-header {
     font-family: 'DM Serif Display';
 font-style: normal;
 font-weight: 400;
@@ -162,10 +161,9 @@ line-height: 58px;
 text-align: center;
 letter-spacing: 0.22px;
 color: #292F36;
-}
-
-.feedback-header1 {
-    padding-top: 103px;
+padding-top: 103px;
+width: 479px;
+margin: 0 auto;
 }
 
 .feedback-card {
@@ -176,6 +174,7 @@ color: #292F36;
     border-radius: 30px;  
     display: flex;
     flex-wrap: wrap;
+    margin-right: 18px;
 }
 
 .feedback-card-item {
@@ -216,14 +215,8 @@ color: #4D5053;
 .feedback-list {
 display: flex;
 margin-top: 48px;
-}
-
-.feedback-card1 {
-margin-left: 51px;
-}
-
-.feedback-card2 {
-    margin: 0 18px;
+justify-content: center;
+margin-right: -18px;
 }
 
 .item1 {
