@@ -149,6 +149,7 @@ height: 831px;
 width: 100%;
 border-radius: 0px 0px 0px 290px;
 background: url(./img/IMAGE.png);
+background-repeat: no-repeat;
 }
 
 .banner-title {
