@@ -159,7 +159,18 @@ html {
 }
 
 .link:hover {
-	color: #cda274;
+    color: #CDA274;
+}
+/* Секція кліенти */
+
+.brend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clients {
+    margin-top: 100px;
 }
 
 .button-light {
