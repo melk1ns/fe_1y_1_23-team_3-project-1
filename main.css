@@ -148,8 +148,9 @@ border: none;
 height: 831px;
 width: 100%;
 border-radius: 0px 0px 0px 290px;
-background: url(./img/IMAGE.png);
+background: url(./img/banner-image.png);
 background-repeat: no-repeat;
+background-size: 100%;
 }
 
 .banner-title {
@@ -180,7 +181,7 @@ width: 750px;
 padding-top: 19px;
 }
 
-.btn1 {
+.banner-btn {
 margin-left: 120px;
 margin-top: 35px; 
 }
