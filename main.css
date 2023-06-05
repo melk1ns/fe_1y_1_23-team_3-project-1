@@ -282,3 +282,41 @@ html {
 	height: 77px;
 	padding-left: 35px;
 }
+
+.contact-us-section {
+	background: #292F36;
+	border-radius: 70px;
+	width: 1200px;
+	height: 414px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+	margin: auto;
+}
+
+.contact-us-title,
+.contact-us-subtitle {
+	font-weight: 400;
+	letter-spacing: 0.22px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.contact-us-title {
+	font-family: DM Serif Display;
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 75px;
+	padding-bottom: 9px;
+}
+
+.contact-us-subtitle {
+	font-family: Jost;
+	font-size: 22px;
+	line-height: 33px;
+}
+
+.contact-us-btn {
+margin-top: 31px;
+}
