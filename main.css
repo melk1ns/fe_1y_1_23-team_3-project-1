@@ -196,8 +196,51 @@ html {
 }
 
 .arrow_1 {
-	padding-left: 27px;
+    padding-left: 27px;
 }
+
+.banner {
+height: 831px;
+width: 100%;
+border-radius: 0px 0px 0px 290px;
+background: url(./img/banner-image.png);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.banner-title {
+padding-left: 120px;
+padding-top: 188px;
+}
+    
+.banner-header {
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 96px;
+letter-spacing: 0.22px;
+color: #292F36;
+width: 770px;
+}
+
+.banner-subtitle {
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0.22px;
+color: #4D5053;
+width: 750px;
+padding-top: 19px;
+}
+
+.banner-btn {
+margin-left: 120px;
+margin-top: 35px; 
+}
+
 
 .feedback {
 	height: 675px;
