@@ -12,8 +12,6 @@ html {
 	font-weight: 400;
 }
 .foot {
-	width: 1200px;
-	margin: 0 auto;
 	margin-top: 130px;
 }
 .first_part {
@@ -37,26 +35,29 @@ html {
 	margin-top: 30px;
 }
 .facebook-logo {
-width: 9.67px;
+width: 10px;
 }
 
 .twitter-logo {
-width: 17.96px;
+width: 18px;
+
 }
 
 .linkedin-logo {
-width: 15.75px;
+width: 16px;
 }
 
 .instagram-logo {
-width: 16.63px;
+width: 17px;
 }
 .footer-line {
 	width: 100%;
-	margin-top: 109.8px;
+	height: 1px;
+	margin-top: 110px;
 }
 .icon {
-padding-top: 29.44px;
+padding-top: 29px;
+margin-right: 40px;
 }
 .logo {
 	height: 50px;
@@ -83,7 +84,7 @@ padding-top: 29.44px;
 .second_part {
 	display: flex;
 	justify-content: center;
-	margin-top: 116px;
+	margin-top: 35px;
 	margin-bottom: 36px;
 	font-family: 'Jost';
 	font-style: normal;
