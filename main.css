@@ -230,14 +230,16 @@ html {
 	padding-left: 35px;
 }
 /* statistics */
+.statistics_background {
+	background: #f4f0ec;
+	width: 100%;
+}
 .statistics {
 	width: 1440px;
 	display: flex;
-	background: #f4f0ec;
 	height: 475px;
 	justify-content: space-evenly;
 	align-items: center;
-	margin: 0 auto;
 }
 .statistics_number {
 	font-family: 'DM Serif Display';
@@ -253,7 +255,4 @@ html {
 	text-align: center;
 	letter-spacing: 0.22px;
 	color: #4d5053;
-}
-.statistics_line {
-	height: 195px;
 }
