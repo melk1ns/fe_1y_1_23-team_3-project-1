@@ -336,6 +336,9 @@ html {
 .item_recent_projects:nth-child(2n + 1) {
 	margin-right: 20px;
 }
+.img_recent_projects {
+	margin-bottom: 24px;
+}
 .title_recent_projects {
 	font-family: 'DM Serif Display';
 	font-size: 47px;
