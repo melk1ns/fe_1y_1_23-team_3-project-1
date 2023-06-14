@@ -159,18 +159,18 @@ html {
 }
 
 .link:hover {
-    color: #CDA274;
+	color: #cda274;
 }
 /* Секція кліенти */
 
 .brend {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .clients {
-    margin-top: 100px;
+	margin-top: 100px;
 }
 
 .button-light {
@@ -197,6 +197,48 @@ html {
 
 .arrow_1 {
 	padding-left: 27px;
+}
+
+.banner {
+	height: 831px;
+	width: 100%;
+	border-radius: 0px 0px 0px 290px;
+	background: url(./img/banner-image.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.banner-title {
+	padding-left: 120px;
+	padding-top: 188px;
+}
+
+.banner-header {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 96px;
+	letter-spacing: 0.22px;
+	color: #292f36;
+	width: 770px;
+}
+
+.banner-subtitle {
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 0.22px;
+	color: #4d5053;
+	width: 750px;
+	padding-top: 19px;
+}
+
+.banner-btn {
+	margin-left: 120px;
+	margin-top: 35px;
 }
 
 .feedback {
@@ -317,4 +359,53 @@ html {
 
 .contact-us-btn {
 margin-top: 31px;
+}
+/* Recent Projects */
+.wrapper_recent_projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+.item_recent_projects {
+	margin-bottom: 60px;
+	width: 590px;
+}
+.item_recent_projects:nth-child(2n + 1) {
+	margin-right: 20px;
+}
+.img_recent_projects {
+	margin-bottom: 24px;
+}
+.title_recent_projects {
+	font-family: 'DM Serif Display';
+	font-size: 47px;
+	line-height: 62px;
+	text-align: center;
+	letter-spacing: 0.22px;
+	color: #292f36;
+	margin-bottom: 20px;
+}
+.subtitle_recent_projects {
+	line-height: 33px;
+	text-align: center;
+	letter-spacing: 0.22px;
+	color: #4d5053;
+	width: 786px;
+	margin: 0 auto;
+	margin-bottom: 72px;
+}
+.lower_part_recent_projects {
+	display: flex;
+	justify-content: space-between;
+}
+.main_text_recent_projects {
+	font-family: 'DM Serif Display';
+	font-size: 24px;
+	line-height: 38px;
+	letter-spacing: 0.22px;
+	color: #292f36;
+}
+.secondary_text_recent_projects {
+	line-height: 33px;
+	letter-spacing: 0.22px;
+	color: #4d5053;
 }
