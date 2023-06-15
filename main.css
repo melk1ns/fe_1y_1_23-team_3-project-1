@@ -43,7 +43,7 @@ html {
 	margin-bottom: 26px;
 }
 .title {
-	font-family: DM Serif Display;
+	font-family: 'DM Serif Display';
 	font-size: 25px;
 	line-height: 38px;
 	color: #292f36;
@@ -71,21 +71,64 @@ html {
 	color: #4d5053;
 	line-height: 33px;
 }
-
+.services {
+	display: flex;
+	justify-content: space-between;
+}
+.service {
+	width: 400px;
+	flex-direction: column;
+	height: 395px;
+	text-align: center;
+	width: 317px;
+}
+.service_title {
+	font-family: 'DM Serif Display';
+	font-size: 25px;
+	line-height: 39px;
+	padding-bottom: 18px;
+	text-align: center;
+	letter-spacing: 0.22px;
+}
+.longer {
+	padding-bottom: 68px;
+}
+.shoter {
+	padding-bottom: 36px;
+}
+.service_text {
+	font-size: 22px;
+	line-height: 33px;
+	color: #4d5053;
+	justify-content: center;
+	display: flex;
+	width: 317px;
+	text-align: center;
+	letter-spacing: 0.22px;
+}
+.service_btn {
+	justify-content: center;
+	display: flex;
+	font-size: 18px;
+	line-height: 27px;
+	color: #4d5053;
+	text-align: center;
+	letter-spacing: 0.36px;
+	margin-right: -8px;
+}
+.service_arrow {
+	margin-left: 8px;
+}
 .nav-header {
 	display: flex;
 	justify-content: space-between;
 }
-
 .menu {
 	display: flex;
 	align-items: center;
 }
-
 .btn {
 	font-family: 'Jost';
-	font-style: normal;
-	font-weight: 400;
 	font-size: 18px;
 	line-height: 27px;
 	color: #ffffff;
@@ -118,6 +161,17 @@ html {
 .link:hover {
 	color: #cda274;
 }
+/* Секція кліенти */
+
+.brend {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.clients {
+	margin-top: 100px;
+}
 
 .button-light {
 	background: #cda274;
@@ -145,12 +199,53 @@ html {
 	padding-left: 27px;
 }
 
+.banner {
+	height: 831px;
+	width: 100%;
+	border-radius: 0px 0px 0px 290px;
+	background: url(./img/banner-image.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.banner-title {
+	padding-left: 120px;
+	padding-top: 188px;
+}
+
+.banner-header {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 96px;
+	letter-spacing: 0.22px;
+	color: #292f36;
+	width: 770px;
+}
+
+.banner-subtitle {
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 0.22px;
+	color: #4d5053;
+	width: 750px;
+	padding-top: 19px;
+}
+
+.banner-btn {
+	margin-left: 120px;
+	margin-top: 35px;
+}
+
 .feedback {
 	height: 675px;
 	width: 1200px;
 	border-radius: 70px;
 	background: #f4f0ec;
-	margin-left: 350px;
 }
 
 .feedback-header {
@@ -253,6 +348,55 @@ html {
 .statistics_text {
 	line-height: 33px;
 	text-align: center;
+	letter-spacing: 0.22px;
+	color: #4d5053;
+}
+/* Recent Projects */
+.wrapper_recent_projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+.item_recent_projects {
+	margin-bottom: 60px;
+	width: 590px;
+}
+.item_recent_projects:nth-child(2n + 1) {
+	margin-right: 20px;
+}
+.img_recent_projects {
+	margin-bottom: 24px;
+}
+.title_recent_projects {
+	font-family: 'DM Serif Display';
+	font-size: 47px;
+	line-height: 62px;
+	text-align: center;
+	letter-spacing: 0.22px;
+	color: #292f36;
+	margin-bottom: 20px;
+}
+.subtitle_recent_projects {
+	line-height: 33px;
+	text-align: center;
+	letter-spacing: 0.22px;
+	color: #4d5053;
+	width: 786px;
+	margin: 0 auto;
+	margin-bottom: 72px;
+}
+.lower_part_recent_projects {
+	display: flex;
+	justify-content: space-between;
+}
+.main_text_recent_projects {
+	font-family: 'DM Serif Display';
+	font-size: 24px;
+	line-height: 38px;
+	letter-spacing: 0.22px;
+	color: #292f36;
+}
+.secondary_text_recent_projects {
+	line-height: 33px;
 	letter-spacing: 0.22px;
 	color: #4d5053;
 }
