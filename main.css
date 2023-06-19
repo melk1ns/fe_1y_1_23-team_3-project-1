@@ -35,20 +35,19 @@ html {
 	margin-top: 30px;
 }
 .facebook-logo {
-width: 10px;
+	width: 10px;
 }
 
 .twitter-logo {
-width: 18px;
-
+	width: 18px;
 }
 
 .linkedin-logo {
-width: 16px;
+	width: 16px;
 }
 
 .instagram-logo {
-width: 17px;
+	width: 17px;
 }
 .footer-line {
 	width: 100%;
@@ -56,8 +55,8 @@ width: 17px;
 	margin-top: 110px;
 }
 .icon {
-padding-top: 29px;
-margin-right: 40px;
+	padding-top: 29px;
+	margin-right: 40px;
 }
 .logo {
 	height: 50px;
@@ -93,7 +92,7 @@ margin-right: 40px;
 	line-height: 33px;
 	text-align: center;
 	letter-spacing: 0.22px;
-	color: #4D5053;
+	color: #4d5053;
 }
 .accent {
 	color: #cda274;
@@ -357,13 +356,13 @@ margin-right: 40px;
 }
 
 .contact-us-section {
-	background: #292F36;
+	background: #292f36;
 	border-radius: 70px;
 	height: 414px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    flex-direction: column;
+	flex-direction: column;
 }
 
 .contact-us-title,
@@ -371,7 +370,7 @@ margin-right: 40px;
 	font-weight: 400;
 	letter-spacing: 0.22px;
 	text-align: center;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 .contact-us-title {
@@ -389,7 +388,7 @@ margin-right: 40px;
 }
 
 .contact-us-btn {
-margin-top: 31px;
+	margin-top: 31px;
 }
 /* statistics */
 .statistics_background {
@@ -466,4 +465,7 @@ margin-top: 31px;
 	line-height: 33px;
 	letter-spacing: 0.22px;
 	color: #4d5053;
+}
+.h2 {
+	display: none;
 }
