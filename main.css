@@ -373,3 +373,41 @@ html {
 	letter-spacing: 0.22px;
 	color: #4d5053;
 }
+
+.info-header {
+     font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+	margin-bottom: 42px;
+}
+
+.info-conteiner {
+	display: flex;
+}
+
+.info-call {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	align-items: center;
+}
+
+.Phone {
+	width: 93px;
+	height: 93px;
+	border-radius: 50%;
+	color: #F4F0EC;
+	border: none;
+}
+
+.call {
+	margin-right: 20px;
+}
+
+.info-text {
+	margin-top: 40px;
+}
