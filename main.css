@@ -201,6 +201,7 @@ html {
 
 .clients {
 	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 .button-light {
@@ -421,6 +422,7 @@ html {
 .wrapper_recent_projects {
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 79px;
 }
 .item_recent_projects {
 	margin-bottom: 60px;
@@ -486,6 +488,7 @@ html {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	margin-top: 135px;
 }
 
 .blog-new {
