@@ -466,6 +466,9 @@ html {
 	letter-spacing: 0.22px;
 	color: #4d5053;
 }
+.h2 {
+	display: none;
+}
 
 .blog-header {
 	font-family: 'DM Serif Display';
