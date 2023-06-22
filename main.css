@@ -233,7 +233,7 @@ html {
 	height: 831px;
 	width: 100%;
 	border-radius: 0px 0px 0px 290px;
-	background: url(./img/banner-image.png);
+	background: url(./assets/banner-image.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -468,4 +468,100 @@ html {
 }
 .h2 {
 	display: none;
+}
+
+.blog-header {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 62px;
+
+	text-align: center;
+	letter-spacing: 0.22px;
+	margin-bottom: 21px;
+}
+
+.blog-text {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.blog-new {
+	display: flex;
+	flex-direction: column;
+	width: 345px;
+	margin-top: 21px;
+}
+
+.blog-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 70px;
+}
+
+.blog-img {
+	border: 1px solid #e7e7e7;
+	border-radius: 62px;
+	display: flex;
+	justify-content: center;
+	width: 387px;
+	height: 515px;
+	margin-bottom: 40px;
+}
+
+.blog-texting {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 35px;
+
+	letter-spacing: 0.5px;
+	margin-bottom: 34px;
+}
+
+.blog-click {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+.info-header {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 65px;
+	letter-spacing: 0.22px;
+	color: #292f36;
+	margin-bottom: 42px;
+}
+
+.info-conteiner {
+	display: flex;
+}
+
+.info-call {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	align-items: center;
+}
+
+.Phone {
+	width: 93px;
+	height: 93px;
+	border-radius: 50%;
+	color: #f4f0ec;
+	border: none;
+}
+
+.call {
+	margin-right: 20px;
+}
+
+.info-text {
+	margin-top: 40px;
 }
