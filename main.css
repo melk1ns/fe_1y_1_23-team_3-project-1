@@ -35,20 +35,19 @@ html {
 	margin-top: 30px;
 }
 .facebook-logo {
-width: 10px;
+	width: 10px;
 }
 
 .twitter-logo {
-width: 18px;
-
+	width: 18px;
 }
 
 .linkedin-logo {
-width: 16px;
+	width: 16px;
 }
 
 .instagram-logo {
-width: 17px;
+	width: 17px;
 }
 .footer-line {
 	width: 100%;
@@ -56,8 +55,8 @@ width: 17px;
 	margin-top: 110px;
 }
 .icon {
-padding-top: 29px;
-margin-right: 40px;
+	padding-top: 29px;
+	margin-right: 40px;
 }
 .logo {
 	height: 50px;
@@ -93,7 +92,7 @@ margin-right: 40px;
 	line-height: 33px;
 	text-align: center;
 	letter-spacing: 0.22px;
-	color: #4D5053;
+	color: #4d5053;
 }
 .accent {
 	color: #cda274;
@@ -357,13 +356,13 @@ margin-right: 40px;
 }
 
 .contact-us-section {
-	background: #292F36;
+	background: #292f36;
 	border-radius: 70px;
 	height: 414px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    flex-direction: column;
+	flex-direction: column;
 }
 
 .contact-us-title,
@@ -371,7 +370,7 @@ margin-right: 40px;
 	font-weight: 400;
 	letter-spacing: 0.22px;
 	text-align: center;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 .contact-us-title {
@@ -389,7 +388,7 @@ margin-right: 40px;
 }
 
 .contact-us-btn {
-margin-top: 31px;
+	margin-top: 31px;
 }
 /* statistics */
 .statistics_background {
@@ -468,14 +467,72 @@ margin-top: 31px;
 	color: #4d5053;
 }
 
+.blog-header {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 62px;
+
+	text-align: center;
+	letter-spacing: 0.22px;
+	margin-bottom: 21px;
+}
+
+.blog-text {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.blog-new {
+	display: flex;
+	flex-direction: column;
+	width: 345px;
+	margin-top: 21px;
+}
+
+.blog-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 70px;
+}
+
+.blog-img {
+	border: 1px solid #e7e7e7;
+	border-radius: 62px;
+	display: flex;
+	justify-content: center;
+	width: 387px;
+	height: 515px;
+	margin-bottom: 40px;
+}
+
+.blog-texting {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 35px;
+
+	letter-spacing: 0.5px;
+	margin-bottom: 34px;
+}
+
+.blog-click {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
 .info-header {
-     font-family: 'DM Serif Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 65px;
-    letter-spacing: 0.22px;
-    color: #292F36;
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 65px;
+	letter-spacing: 0.22px;
+	color: #292f36;
 	margin-bottom: 42px;
 }
 
@@ -494,7 +551,7 @@ margin-top: 31px;
 	width: 93px;
 	height: 93px;
 	border-radius: 50%;
-	color: #F4F0EC;
+	color: #f4f0ec;
 	border: none;
 }
 
